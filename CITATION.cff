@@ -8,6 +8,11 @@ authors:
 version: 0.2.0-preregistration
 date-released: 2026-09-19
 repository-code: "https://github.com/phiomegaruntime-rgb/m-omnia-validation"
+doi: 10.5281/zenodo.22844831
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22844831
+    description: Archived preregistration release v0.2.0-preregistration
 license: Apache-2.0
 keywords:
   - preregistration

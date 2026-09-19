@@ -5,6 +5,18 @@ frozen_constant:
   unit: s_per_arc_unit
   claimed_calibration_system: pendulum_2_8_deg
 
+definition_gate:
+  status: blocked
+  file: preregistration/DEFINITION_GATE.md
+  consequence: prospective numerical execution forbidden
+  unresolved:
+    - measurable_state_map
+    - units_and_normalization
+    - relational_update_law
+    - intrinsic_metric_and_weights
+    - terminal_crossing
+    - benchmark_independent_convergence
+
 claims:
   - id: pendulum_calibration_2_8_deg
     system: pendulum
@@ -18,6 +30,7 @@ claims:
     system: pendulum
     status: documented_pending_reproduction
     role: out_of_sample
+    evidentiary_role: equivalence_and_code_control_only
     prediction_s: 3.5251
     benchmark_s: 3.5255
     advertised_error: less_than_0.02_percent
@@ -41,4 +54,3 @@ claims:
     advertised_benchmark: pi_over_4
     blocker: original source, normalization, initial conditions, and d_tau definition are missing
     required_files: []
-

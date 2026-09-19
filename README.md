@@ -1,10 +1,16 @@
 # M-OMNIA Validation Repository
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22844638.svg)](https://doi.org/10.5281/zenodo.22844638)
+
 This repository is an evidence-first workspace for testing Relational Substrate Mechanics (M-OMNIA / Phi-Infinity).
 
 Author: **Massimiliano Brighindi**
 
 Release status: **prospective preregistration; no empirically verified result is claimed in v0.1.0-preregistration**.
+
+Archived release DOI: **[10.5281/zenodo.22844638](https://doi.org/10.5281/zenodo.22844638)**
+
+All-version DOI: **[10.5281/zenodo.22844637](https://doi.org/10.5281/zenodo.22844637)**
 
 ## Frozen conceptual root
 

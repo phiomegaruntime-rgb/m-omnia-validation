@@ -6,9 +6,9 @@ This repository is an evidence-first workspace for testing Relational Substrate 
 
 Author: **Massimiliano Brighindi**
 
-Release status: **prospective preregistration; no empirically verified result is claimed in v0.1.0-preregistration**.
+Current protocol status: **v0.2.0-preregistration; no empirically verified result is claimed**.
 
-Archived release DOI: **[10.5281/zenodo.22844638](https://doi.org/10.5281/zenodo.22844638)**
+Previous archived release v0.1.0 DOI: **[10.5281/zenodo.22844638](https://doi.org/10.5281/zenodo.22844638)**
 
 All-version DOI: **[10.5281/zenodo.22844637](https://doi.org/10.5281/zenodo.22844637)**
 

@@ -1,12 +1,14 @@
 # M-OMNIA Validation Repository
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22844638.svg)](https://doi.org/10.5281/zenodo.22844638)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22844637.svg)](https://doi.org/10.5281/zenodo.22844637)
 
 This repository is an evidence-first workspace for testing Relational Substrate Mechanics (M-OMNIA / Phi-Infinity).
 
 Author: **Massimiliano Brighindi**
 
 Current protocol status: **v0.2.0-preregistration; no empirically verified result is claimed**.
+
+Current archived release v0.2.0 DOI: **[10.5281/zenodo.22844831](https://doi.org/10.5281/zenodo.22844831)**
 
 Previous archived release v0.1.0 DOI: **[10.5281/zenodo.22844638](https://doi.org/10.5281/zenodo.22844638)**
 

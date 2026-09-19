@@ -1,0 +1,9 @@
+[project]
+name = "m-omnia-validation"
+version = "0.1.0"
+description = "Evidence-first validation scaffold for Relational Substrate Mechanics"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

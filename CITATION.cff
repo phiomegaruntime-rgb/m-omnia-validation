@@ -1,7 +1,17 @@
 cff-version: 1.2.0
-title: M-OMNIA Validation Repository
-message: "Cite the archived release DOI. Do not cite unverified numerical claims as results."
+title: "M-OMNIA Validation Protocol: Prospective Zero-Retuning Preregistration"
+message: "Cite the archived release DOI. This version is a preregistered protocol and does not claim empirically verified results."
 type: software
-version: 0.1.0
+authors:
+  - family-names: Brighindi
+    given-names: Massimiliano
+version: 0.1.0-preregistration
 date-released: 2026-09-19
-
+repository-code: "https://github.com/phiomegaruntime-rgb/m-omnia-validation"
+license: Apache-2.0
+keywords:
+  - preregistration
+  - reproducibility
+  - falsification
+  - relational dynamics
+  - zero-retuning

@@ -2,6 +2,10 @@
 
 This repository is an evidence-first workspace for testing Relational Substrate Mechanics (M-OMNIA / Phi-Infinity).
 
+Author: **Massimiliano Brighindi**
+
+Release status: **prospective preregistration; no empirically verified result is claimed in v0.1.0-preregistration**.
+
 ## Frozen conceptual root
 
 ```text
@@ -53,4 +57,3 @@ python -m unittest discover -s tests -v
 ## Rule against retrofitting
 
 System C and System D remain blocked until their original equations/code, initial conditions, stopping rules, and provenance are recovered. Adding an implementation chosen to reproduce the published numbers would be retrospective fitting, not out-of-sample validation.
-

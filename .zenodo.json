@@ -1,0 +1,20 @@
+{
+  "title": "M-OMNIA Validation Protocol: Prospective Zero-Retuning Preregistration",
+  "description": "Evidence-first preregistration for prospective, zero-retuning evaluation of Relational Substrate Mechanics (M-OMNIA / Phi-Infinity). This release freezes the conceptual solution, derivation path, definition gate, falsifiers, and protocols for System C and System D. It does not claim empirically verified results.",
+  "creators": [
+    {
+      "name": "Brighindi, Massimiliano"
+    }
+  ],
+  "license": "Apache-2.0",
+  "upload_type": "software",
+  "keywords": [
+    "preregistration",
+    "reproducibility",
+    "falsification",
+    "relational dynamics",
+    "zero-retuning",
+    "M-OMNIA"
+  ],
+  "notes": "Protocol release only. Verified empirical-result count at release: zero. Documentation is additionally licensed CC BY 4.0 as stated in LICENSE-DOCUMENTATION."
+}

@@ -9,6 +9,7 @@
   "license": "Apache-2.0",
   "upload_type": "software",
   "version": "0.2.0-preregistration",
+  "doi": "10.5281/zenodo.22844831",
   "keywords": [
     "preregistration",
     "reproducibility",

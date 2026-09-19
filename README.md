@@ -42,6 +42,30 @@ The repository does not treat a numerical value as evidence unless its provenanc
 
 No missing implementation may be reconstructed from its advertised target value.
 
+## Definition Gate: BLOCKED
+
+Prospective numerical execution is currently forbidden. The operational definitions of the measurable state map, units, relational update, intrinsic increment `d_tau`, metric weights, terminal crossing, and benchmark-independent convergence rule are not yet unique.
+
+The complete gate is frozen in [`preregistration/DEFINITION_GATE.md`](preregistration/DEFINITION_GATE.md). While the gate is blocked:
+
+- no System C or System D prediction may be generated;
+- no numerical agreement may be promoted to verified evidence;
+- alternative definitions may not be selected by proximity to a known benchmark.
+
+The pendulum is now classified as an **equivalence and code-control test**, not as discriminating evidence for new physics.
+
+## Legitimate theory outcomes
+
+The preregistered comparison allows five outcomes:
+
+1. M and Newton are operationally equivalent in the tested domain;
+2. their separation is below the preregistered experimental resolution, so the test is inconclusive;
+3. the data discriminate in favor of Newton;
+4. the data discriminate in favor of M;
+5. the data reject both models within the declared error model.
+
+Global equivalence with Newton is an admissible publishable result. It would classify M as a possible reformulation, not as a theory with demonstrated new predictive power.
+
 ## Repository map
 
 - `PROTOCOL_FROZEN.md`: immutable order of analysis and falsification rules.

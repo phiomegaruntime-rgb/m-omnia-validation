@@ -19,21 +19,63 @@ definition_gate:
 
 claims:
   - id: pendulum_calibration_2_8_deg
+    claim_id: CLM-PEND-001
     system: pendulum
     status: documented_pending_reproduction
+    audit_status: "valore dichiarato, catena di calcolo assente"
+    reproducibility: unverifiable
     role: calibration
     claim: kappa was calibrated once at 2.8 degrees
+    claimed_value: 3.19275
+    unit: s_per_arc_unit
+    provenance:
+      source_script: null
+      raw_data: null
+      delta_t_ref: null
+      length_L: null
+      gravity_g: null
+    arithmetic_observations:
+      scale_10_over_sqrt_g: 3.1927542841
+      assumed_g_m_per_s2: 9.81
+      implied_delta_tau_if_L1_and_full_small_angle_period: 0.6283185307
+      interpretation: pi_over_5
+      provenance: auditor_derived_not_repository_declared
+    note: >
+      The declared value lacks a traceable calculation of d_tau, the physical
+      parameters L and g, and the calibration target Delta_t_ref at 2.8 degrees.
+      Its numerical proximity to 10/sqrt(9.81) is recorded only as an arithmetic
+      observation requiring clarification, not as a reconstruction of the claim.
     required_files:
       - systems/pendulum/README.md
 
   - id: pendulum_transfer_150_deg
+    claim_id: CLM-PEND-002
     system: pendulum
     status: documented_pending_reproduction
+    audit_status: "valore dichiarato, catena di calcolo assente"
+    reproducibility: unverifiable
     role: out_of_sample
     evidentiary_role: equivalence_and_code_control_only
     prediction_s: 3.5251
     benchmark_s: 3.5255
     advertised_error: less_than_0.02_percent
+    auditor_derived:
+      assumed_length_m: 1.0
+      assumed_gravity_m_per_s2: 9.81
+      analytical_exact_s: 3.53510
+      ratio_T150_over_T0_harmonic: 1.76220
+      ratio_T150_over_T_2_8deg: 1.7619
+      inferred_delta_t_ref_under_classical_growth_s: "2.0007-2.0010"
+      implied_ratio_if_delta_t_ref_around_2_006s: "approximately 1.757"
+      provenance: auditor_derived_not_repository_declared
+    note: >
+      Under the explicitly assumed candidate parameters L=1.0 m and g=9.81
+      m/s^2, the declared prediction and benchmark differ from the exact
+      elliptic solution. Inferences about Delta_t_ref rely on an assumed
+      classical growth ratio and are not reconstructions of the missing method.
+      The comparable offsets of the prediction and benchmark are not
+      discriminating evidence. Definitive assessment requires the physical
+      parameters, operational definition of d_tau, and benchmark derivation.
     required_files:
       - systems/pendulum/README.md
 

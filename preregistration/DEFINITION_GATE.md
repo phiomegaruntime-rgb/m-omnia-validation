@@ -22,3 +22,4 @@ Reason: the available monograph supplies a symbolic state template and intrinsic
 
 Closing this gate requires a single frozen operational specification. It does not require a successful benchmark result.
 
+Closure must also freeze the experiment-specific uncertainty model and numerical decision thresholds defined in `DECISION_MATRIX.md`. A definition that closes only after inspecting an M prediction or benchmark comparison is invalid.

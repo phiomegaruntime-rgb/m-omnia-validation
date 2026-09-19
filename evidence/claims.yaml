@@ -1,0 +1,44 @@
+schema_version: 1
+frozen_constant:
+  name: kappa
+  value: 3.19275
+  unit: s_per_arc_unit
+  claimed_calibration_system: pendulum_2_8_deg
+
+claims:
+  - id: pendulum_calibration_2_8_deg
+    system: pendulum
+    status: documented_pending_reproduction
+    role: calibration
+    claim: kappa was calibrated once at 2.8 degrees
+    required_files:
+      - systems/pendulum/README.md
+
+  - id: pendulum_transfer_150_deg
+    system: pendulum
+    status: documented_pending_reproduction
+    role: out_of_sample
+    prediction_s: 3.5251
+    benchmark_s: 3.5255
+    advertised_error: less_than_0.02_percent
+    required_files:
+      - systems/pendulum/README.md
+
+  - id: system_c_n7_collapse
+    system: system_c
+    status: unverified
+    role: out_of_sample
+    advertised_prediction_s: 0.12475
+    advertised_benchmark_s: 0.12480
+    blocker: original equations, source, initial conditions, and stall rule are missing
+    required_files: []
+
+  - id: system_d_radial_fall
+    system: system_d
+    status: unverified
+    role: out_of_sample
+    advertised_prediction_s: 0.785382
+    advertised_benchmark: pi_over_4
+    blocker: original source, normalization, initial conditions, and d_tau definition are missing
+    required_files: []
+
